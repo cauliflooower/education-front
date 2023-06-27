@@ -1,0 +1,132 @@
+.login {
+    background-color: rgba(214, 214, 214, 0.815);
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.loginInner {
+    transition: all .5s ease .2s;
+    padding: 7.5rem 0;
+    background-image: url("../img/Game_Center_icon.svg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom 85% right 70%;
+    background-size: 20%;
+
+    .loginWhite {
+        width: 35%;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #fff;
+        height: 30rem;
+        display: grid;
+        align-content: space-between;
+
+        form {
+            display: grid;
+            align-content: space-between;
+            width: 100%;
+        }
+    }
+}
+
+
+.questionBox {
+    display: grid;
+    padding: 1.5rem;
+    row-gap: 2rem;
+
+    .questionBoxWidth {
+        display: contents;
+        transition: all .5s ease 0s;
+    }
+}
+
+.questionLabel {
+    font-weight: 600;
+}
+
+.questionButton {
+    padding: 1rem 0;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    color: rgb(37, 184, 193);
+    font-size: 1.2rem;
+    border: 0;
+    transition: all .5s ease .1s;
+
+    &:hover {
+        background-color: rgb(37, 184, 193);
+        color: rgb(255, 196, 0)
+    }
+}
+
+.questionItem {
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 3px solid rgb(65, 65, 65);
+    transition: all .5s ease .2s;
+    height: fit-content;
+    font-size: 1rem;
+    padding: 0.7rem;
+
+    &:focus {
+        border-bottom: 3px solid rgb(255, 196, 0);
+    }
+}
+
+.leftButton {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(161, 35, 150, 0.822);
+    color: #fff;
+
+    &:hover {
+        background-color: rgba(153, 38, 143, 0.904);
+        color: #fff;
+    }
+}
+
+.rightButton {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(31, 155, 161);
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(14, 140, 146);
+        color: #fff;
+    }
+}
+
+.questionBetween {
+    display: flex;
+}
+
+.spanText {
+    text-align: center;
+
+    .spanTextColor {
+        color: rgb(255, 196, 0);
+    }
+}
+
+  
+  @media screen and (max-width:600px) {
+    .loginInner {
+        background-position: bottom 89% right 94%;
+        background-size: 50%;
+    
+        .loginWhite {
+            width: 70%;
+        }
+    }
+    
+  }

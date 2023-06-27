@@ -1,0 +1,402 @@
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.app {
+  .backgroundColor {
+    background: rgb(37, 184, 193);
+    background: linear-gradient(133deg, rgba(37, 184, 193, 1) 14%, rgba(245, 255, 0, 0.8155637254901961) 100%);
+
+    .background {
+      display: block;
+      margin: 0;
+      background-image: url("../../img/1625799870088Dwu7omrUM1V5.png");
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right 20px bottom -28px;
+    }
+  }
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.12rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: auto;
+  padding: 0;
+  white-space: normal;
+  transition: all .5s ease .1s;
+
+  &:hover {
+    color: rgb(255, 196, 0);
+  }
+}
+
+.columnItem {
+  column-gap: 16px;
+
+}
+
+
+.imgLink {
+  font-size: 1rem;
+  border: 0;
+  background-color: rgb(255, 196, 0);
+  color: rgb(255, 255, 255);
+  padding: 0.7rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 10px 16px;
+  margin: 14px 0;
+  transition: all .5s ease .1s;
+
+  &:hover {
+    background-color: rgb(37, 184, 193);
+    color: rgb(255, 255, 255)
+  }
+}
+
+.heroInner {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+
+  .heroItem {
+    width: 50%;
+
+    .heroTitle {
+      font-size: 2rem;
+    }
+
+    .heroText {
+      padding: 2rem 0 4rem 0;
+      line-height: 27px;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 1.12rem;
+    }
+
+    .heroButton {
+      padding: 1rem 2rem;
+      font-weight: 700;
+      text-decoration: none;
+      background-color: rgb(255, 196, 0);
+      color: rgb(37, 184, 193);
+      text-transform: uppercase;
+      border-radius: 15px;
+      transition: all .5s ease .1s;
+
+      &:hover {
+        background-color: rgb(37, 184, 193);
+        color: rgb(255, 196, 0);
+      }
+    }
+  }
+
+  .heroImg {
+    width: 50%;
+  }
+}
+
+.point {
+  padding: 7rem 0 2rem 0;
+
+  .rectengle {
+    width: 100%;
+    height: 11rem;
+    background: rgb(149, 237, 238);
+    background: linear-gradient(90deg, rgba(149, 237, 238, 1) 0%, rgba(255, 204, 93, 1) 100%);
+  }
+}
+
+.pointInner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+
+  .pointBetween {
+    position: absolute;
+    display: flex;
+    column-gap: 3rem;
+    margin: 0 auto;
+    width: 60%;
+
+    .poinGoals {
+      width: fit-content;
+      position: relative;
+      bottom: 90px;
+      display: grid;
+      row-gap: 2rem;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 1.25rem;
+      text-align: center;
+
+      .pointButton {
+        margin: auto;
+        font-size: 1rem;
+        border: 0;
+        background-color: rgb(255, 196, 0);
+        color: rgb(37, 184, 193);
+        padding: 0.7rem;
+        border-radius: 1rem;
+        width: 50%;
+        text-decoration: none;
+        font-weight: 600;
+        word-spacing: inherit;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        transition: all .5s ease .1s;
+
+        &:hover {
+          background-color: rgb(37, 184, 193);
+          color: rgb(255, 196, 0);
+        }
+      }
+    }
+
+    .poinTasks {
+      width: fit-content;
+      position: relative;
+      bottom: 270px;
+      display: grid;
+      row-gap: 2rem;
+      padding: 1rem;
+      border-radius: 1.25rem;
+      text-align: center;
+    }
+  }
+}
+
+.pointImg {
+  margin: auto;
+  width: -webkit-fill-available;
+  border-radius: 20px;
+}
+
+.task {
+  padding: 45rem 0 0 0;
+
+  .taskInner {
+    background: rgb(37, 184, 193);
+    background: linear-gradient(90deg, rgba(37, 184, 193, 0.6110819327731092) 0%, rgba(255, 201, 0, 0.7315301120448179) 38%);
+  }
+}
+
+.taskList {
+  padding: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 36px;
+  column-gap: 36px;
+  margin: auto;
+
+  .taskItem {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 30%;
+
+    h3 {
+      font-size: 3rem;
+      color: rgb(37, 184, 193);
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.question {
+  background-color: rgb(243, 243, 243);
+}
+
+.questionInner {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+
+  .questionForm {
+    width: 60%;
+
+    form {
+      display: grid;
+      row-gap: 1.25rem;
+      padding-bottom: 2rem;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .questionBox {
+      display: flex;
+      column-gap: 15px;
+      justify-content: space-between;
+    }
+  }
+}
+
+.questionLabel {
+  font-weight: 600;
+
+  textarea {
+    height: 8rem;
+  }
+}
+
+.questionButton {
+  padding: 1rem 0;
+  width: 100%;
+  background-color: rgb(255, 196, 0);
+  text-align: center;
+  color: rgb(37, 184, 193);
+  font-size: 1.2rem;
+  border: 0;
+  transition: all .5s ease .1s;
+
+  &:hover {
+    background-color: rgb(37, 184, 193);
+    color: rgb(255, 196, 0)
+  }
+}
+
+.questionItem {
+  width: 100%;
+  background-color: #fff;
+  border: 0;
+  border-bottom: 3px solid rgb(65, 65, 65);
+  transition: all .5s ease .2s;
+  height: fit-content;
+  font-size: 1rem;
+  padding: 0.7rem;
+
+  &:focus {
+    border-bottom: 3px solid rgb(255, 196, 0);
+  }
+}
+
+.imgQestion {
+  width: 40%;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.footerInner {
+  padding: 3rem 0;
+  display: flex;
+  column-gap: 2rem;
+
+  .footerTitle {
+
+    width: 20%;
+  }
+}
+
+.footerContact {
+  h4 {
+    padding-bottom: 2rem;
+  }
+
+  .footerContactText {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0.91rem;
+    line-height: 32px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+  @media screen and (max-width:1005px) {
+    .heroInner {
+      display: grid;
+      padding-top: 50px;
+
+      .heroItem {
+        width: 100%;
+      }
+
+      .heroImg {
+        width: 100%;
+      }
+    }
+
+    .pointInner {
+      height: 800px;
+
+      .pointBetween {
+        row-gap: 200px;
+        display: grid;
+      }
+    }
+
+    .questionInner {
+      flex-direction: column-reverse;
+      row-gap: 36px;
+
+      .questionForm {
+        width: 100%;
+      }
+    }
+
+    .imgQestion {
+      width: 100%;
+    }
+
+    .footerInner {
+      padding: 3rem 0;
+      display: flex;
+      flex-direction: column;
+
+      .footerTitle {
+
+        width: 20%;
+      }
+    }
+
+    .footerContact {
+      .footerContactText {
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 0.91rem;
+      }
+    }
+  }
+
+@media screen and (max-width:850px) {
+  .taskList {
+    justify-content: space-between;
+
+    .taskItem {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (max-width:600px) {
+  .taskList {
+    justify-content: space-between;
+
+    .taskItem {
+      width: 100%;
+    }
+  }
+}
